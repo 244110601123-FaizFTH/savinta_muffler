@@ -11,6 +11,9 @@ const products = {
 
         Dengan knalpot SAVINTA Motor KLX WR CRF Trail Full Stainless PNP di kendaraan trail kesayanganmu, kamu dapat merasakan performa mesin yang lebih baik serta tampil lebih sporty. 
         Ayo segera pasang knalpot berkualitas tinggi untuk meningkatkan performa kendaraanmu!`,
+    rating: "4.9/5 dari 22 testimoni",
+    stars: "★★★★★",
+    review: "Suara lebih kuat dan pemasangan plug-n-play, puas sekali.",
     whatsapp: "Haloo%20SavintaMuffler%20Saya%20mau%20pesan%20Knalpot%20Motor%20KLX%20WR%20CRF%20DTRACKER%20Full%20Stainless",
     shopee: "https://shopee.co.id/Savinta-Knalpot-Motor-KLX-WR-CRF-DTRACKER-Full-Stainles-Plug-N-Play-Type-NERO-i.252557546.18395927145?extraParams=%7B%22display_model_id%22%3A207223590487%2C%22model_selection_logic%22%3A3%7D",
   },
@@ -51,6 +54,9 @@ Silahkan Pilih sesuai Variasi & Jangan Sampai Salah Pilih Variasinya :
 
 <b>Terima Kasih</b>
 <b>Ingat Knalpot, Ingat SAVINTA Muffler.</b>`,
+    rating: "4.8/5 dari 18 testimoni",
+    stars: "★★★★★",
+    review: "Knalpot full black ini pas banget untuk vario saya, suara mantap dan tampilannya keren.",
     whatsapp: "Haloo%20SavintaMuffler%20Saya%20mau%20pesan%20Knalpot%20Motor%20T77%20Vario%20Beat%20Full%20Black",
     shopee: "https://shopee.co.id/SAVINTA-Knalpot-Racing-Motor-T77-Vario-Beat-Scoopy-Nmax-Pcx-Aerox-Mio-J-Sporty-Fino-Gt-Soul-Standar-Original-Gembung-Besar-Tsukigi-i.252557546.23049124975?extraParams=%7B%22display_model_id%22%3A217239571297%2C%22model_selection_logic%22%3A3%7D",
   },
@@ -140,6 +146,9 @@ Untuk Memastikan Kelayakan Produk Kami.
 Dan MEMASTIKAN Knalpot yang Kami Kirim SESUAI Dengan FOTO & Request Pembeli.
 
 <b>( INGAT KNALPOT, INGAT SAVINTA MUFFLER ).</b>`,
+    rating: "4.9/5 dari 25 testimoni",
+    stars: "★★★★★",
+    review: "Suara ngir lebih kencang, material full stainless kuat dan tahan karat.",
     whatsapp: "Haloo%20SavintaMuffler%20Saya%20mau%20pesan%20Knalpot%20Canter%20Dyna%20Dutro%20Isuzu%20Nmr",
     shopee: "https://shopee.co.id/SAVINTA-Ngir-Truk-Canter-Dyna-Dutro-Isuzu-Nmr-Nkr-Full-Stainles-i.252557546.5234963029?extraParams=%7B%22display_model_id%22%3A266043408304%2C%22model_selection_logic%22%3A3%7D",
   },
@@ -346,6 +355,9 @@ Untuk Memastikan Kelayakan Produk Kami.
 Dan MEMASTIKAN Knalpot yang Kami Kirim SESUAI Dengan FOTO & Request Pembeli.
 
 <b>INGAT KNALPOT, INGAT SAVINTA MUFFLER</b>`,
+    rating: "4.7/5 dari 11 testimoni",
+    stars: "★★★★★",
+    review: "Biru stainlessnya tampak premium, suaranya bass dan lebih halus saat dipakai harian.",
     whatsapp: "Haloo%20SavintaMuffler%20Saya%20mau%20pesan%20XELO%20Blue%20Stainless",
     shopee: "https://shopee.co.id/Savinta-Knalpot-Racing-Mobil-XELO-Blue-Stainles-Bass-Size-33cm-i.252557546.21867920688?extraParams=%7B%22display_model_id%22%3A29295807400%2C%22model_selection_logic%22%3A3%7D",
   },
@@ -389,6 +401,9 @@ Terima Kasih Sudah Membaca Detail & Pemasangan Product.
 Jika Masih Belum Paham, Bisa Chat CS. 
 
 <b>Ingat Knalpot, Ingat SAVINTA Muffler</b>`,
+    rating: "4.8/5 dari 14 testimoni",
+    stars: "★★★★★",
+    review: "Ujung birunya bikin mobil tampil beda, pasangannya rapi dan suara jadi lebih tegas.",
     whatsapp: "Haloo%20SavintaMuffler%20Saya%20mau%20pesan%20Biru%20Inlet%202inc",
     shopee: "https://shopee.co.id/Savinta-Knalpot-Mobil-Bass-Ujung-Stainles-Biru-Inlet-2inc-Kenalpot-Mobil-Avanza-Vios-Sedan-Kijang-Xenia-Ayla-Agya-Mobilio-Brio-Calya-Jazz-Yariz-Pick-Up-Grand-Max-Sigra-Luxio-Wuling-Tata-Karimun-Apv-Sirion-Ertiga-Datsun-Carry-JS-Racing-Spoon-i.252557546.10440700249?extraParams=%7B%22display_model_id%22%3A127456557837%2C%22model_selection_logic%22%3A3%7D",
   },
@@ -936,6 +951,9 @@ Cara Pemasangan
 LAS HARUS PAKAI LAS KARBIT, Jangan pakai LAS LISTRIK
 
 <b>Stock Selalu Ready Omkuh</b>`,
+    rating: "4.8/5 dari 20 testimoni",
+    stars: "★★★★★",
+    review: "Sound serigala-nya juara, build quality tahan karat dan pas untuk Avanza L300 saya.",
     whatsapp: "Haloo%20SavintaMuffler%20Saya%20mau%20pesan%20Mobil%20Bensin%20Solar%20Avanza%20L300",
     shopee: "https://shopee.co.id/Savinta-Knalpot-Serigala-Mobil-Bensin-Solar-Avanza-L300-Grandmax-Luxio-Traga-Panther-Kijang-Xenia-Sigra-i.252557546.9813675841?extraParams=%7B%22display_model_id%22%3A53652428370%2C%22model_selection_logic%22%3A3%7D",
   },
