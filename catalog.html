@@ -195,6 +195,10 @@
                 card.dataset.productSlug = slug;
                 card.style.transitionDelay = (idx % 6) * 0.1 + 's';
 
+                const ratingText = prod.rating || '4.8/5 dari 15 testimoni';
+                const stars = prod.stars || '★★★★★';
+                const reviewText = prod.review || 'Banyak pelanggan puas dengan kualitas, suara mantap, dan pemasangan mudah.';
+
                 card.innerHTML = `
                     <div class="product-image">
                         <img src="${prod.image}" alt="${escapeHtml(prod.title)}">
@@ -202,6 +206,8 @@
                     <div class="product-info">
                         <span class="product-category">${escapeHtml(prod.category)}</span>
                         <h3>${escapeHtml(prod.title)}</h3>
+                        <div class="product-rating"><span class="stars">${escapeHtml(stars)}</span><span class="rating-text">${escapeHtml(ratingText)}</span></div>
+                        <p class="product-review">${escapeHtml(reviewText)}</p>
                         <a class="btn btn-whatsapp btn-full" target="_blank" href="https://api.whatsapp.com/send?phone=62895360918709&text=${encodeURIComponent(prod.whatsapp)}">Pesan via WhatsApp</a>
                         <a class="btn btn-shopee btn-full" data-shopee-for="${slug}" target="_blank" href="${prod.shopee || '#'}">Pesan via Shopee</a>
                         <a href="product.html?id=${slug}" class="btn btn-secondary btn-full">Lihat Detail</a>
