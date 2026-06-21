@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAVINTA MUFFLER</title>
+    <meta name="description" content="Detail produk knalpot dan aksesoris SAVINTA MUFFLER.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="products.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="img/logo savinta.png" alt="Savinta Muffler"></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="catalog.html">Katalog</a>
+            </div>
+            <button class="theme-toggle" type="button" aria-label="Toggle light and dark mode">🌙</button>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="section product-detail-page">
+        <div class="container">
+            <div id="product-content">
+                <div class="detail-grid">
+                    <div class="detail-image">
+                        <img id="product-image" src="" alt="">
+                    </div>
+                    <div class="detail-info">
+                        <span id="product-category" class="product-category"></span>
+                        <h1 id="product-title"></h1>
+                        <h3 class="product-description-title">Deskripsi Produk</h3>
+                        <p id="product-description" class="product-description"></p>
+                        <div class="product-detail-actions">
+                            <a id="product-whatsapp" href="#" target="_blank" class="btn btn-whatsapp btn-full">Pesan via WhatsApp</a>
+                            <a id="product-shopee" href="#" target="_blank" class="btn btn-shopee btn-full">Pesan via Shopee</a>
+                            <a href="catalog.html" class="btn btn-secondary btn-full">Kembali ke Katalog</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="product-notfound" style="display:none;">
+                <p>Produk tidak ditemukan. <a href="catalog.html">Kembali ke katalog</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>SAVINTA<span>MUFFLER</span></h2>
+                    <p>Katalog lengkap knalpot mobil, motor, truk, dan stainless untuk semua kebutuhan otomotif.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pabrik Knalpot Purbalingga @SAVINTA MUFFLER. Redesign by Faiz.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    // Populate product details from PRODUCTS (products.js)
+    document.addEventListener('DOMContentLoaded', () => {
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get('id') || '';
+        const prod = window.PRODUCTS?.[id];
+        if (!prod) {
+            document.getElementById('product-content').style.display = 'none';
+            document.getElementById('product-notfound').style.display = 'block';
+            document.title = 'Produk Tidak Ditemukan | SAVINTA MUFFLER';
+            return;
+        }
+
+        document.getElementById('product-image').src = prod.image;
+        document.getElementById('product-image').alt = prod.title;
+        document.getElementById('product-category').textContent = prod.category;
+        document.getElementById('product-title').textContent = prod.title;
+        document.getElementById('product-description').innerHTML = prod.description.replace(/\n/g, '<br>');
+        document.getElementById('product-whatsapp').href = `https://api.whatsapp.com/send?phone=62895360918709&text=${encodeURIComponent(prod.whatsapp)}`;
+        if (prod.shopee) {
+            document.getElementById('product-shopee').href = prod.shopee;
+        } else {
+            document.getElementById('product-shopee').style.display = 'none';
+        }
+        document.title = prod.title + ' | SAVINTA MUFFLER';
+    });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

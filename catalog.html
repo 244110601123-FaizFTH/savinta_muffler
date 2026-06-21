@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Knalpot | SAVINTA MUFFLER</title>
+    <meta name="description" content="Katalog lengkap knalpot mobil, motor, truk, dan aksesoris stainless dari SAVINTA MUFFLER.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="products.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="img/logo savinta.png" alt="Savinta Muffler"></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="catalog.html" class="active">Katalog</a>
+            </div>
+            <button class="theme-toggle" type="button" aria-label="Toggle light and dark mode">🌙</button>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content animate-on-scroll">
+            <div class="hero-badge">Katalog Knalpot Lengkap</div>
+            <h1>Temukan Koleksi<br><span class="text-accent">Knalpot Kami</span></h1>
+            <p>Katalog knalpot mobil, motor, truk, dan aksesoris stainless yang sudah tersedia di folder <strong>img</strong>. Klik untuk melihat detail dan langsung pesan via WhatsApp.</p>
+            <div class="hero-buttons">
+                <a href="#catalog" class="btn btn-primary">Lihat Katalog</a>
+                <a href="index.html#contact" class="btn btn-secondary">Kontak Sales</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="catalog">
+        <section class="section products-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <h2>Katalog Knalpot</h2>
+                </div>
+
+                <div class="catalog-control-panel animate-on-scroll">
+                    <div class="catalog-search">
+                        <label for="catalog-search-input">Cari Produk</label>
+                        <input id="catalog-search-input" type="search" placeholder="Ketik nama produk atau kategori...">
+                    </div>
+                    <div class="catalog-filter">
+                        <label for="catalog-category-select">Kategori</label>
+                        <select id="catalog-category-select">
+                            <option value="all">Semua Kategori</option>
+                            <option value="Knalpot Motor">Knalpot Motor</option>
+                            <option value="Knalpot Truk">Knalpot Truk</option>
+                            <option value="Custom Stainless">Custom Stainless</option>
+                            <option value="Ujung Stainless">Ujung Stainless</option>
+                            <option value="Full Stainless">Full Stainless</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="section-header animate-on-scroll">
+                    <h3>Knalpot Motor</h3>
+                    <p>Koleksi knalpot motor plug & play serta racing untuk berbagai tipe motor.</p>
+                </div>
+                <div class="products-grid" id="category-motor"></div>
+
+                <div class="section-header animate-on-scroll" style="margin-top: 3rem;">
+                    <h3>Truk & Khusus</h3>
+                    <p>Produk dan knalpot truk serta desain khusus untuk kendaraan berat.</p>
+                </div>
+                <div class="products-grid" id="category-truk"></div>
+
+                <div class="section-header animate-on-scroll" style="margin-top: 3rem;">
+                    <h3>Custom Stainless & Aksesoris</h3>
+                    <p>Produk custom dan aksesori stainless yang siap dipasang.</p>
+                </div>
+                <div class="products-grid" id="category-custom"></div>
+
+                <div class="section-header animate-on-scroll" style="margin-top: 3rem;">
+                    <h3>Ujung Stainless</h3>
+                    <p>Koleksi ujung stainless untuk tampilan pipa knalpot yang rapi.</p>
+                </div>
+                <div class="products-grid" id="category-ujung"></div>
+
+                <div class="section-header animate-on-scroll" style="margin-top: 3rem;">
+                    <h3>Full Stainless</h3>
+                    <p>Koleksi knalpot full stainless tahan karat dengan desain premium.</p>
+                </div>
+                <div class="products-grid" id="category-full"></div>
+
+                <div class="text-center" style="margin-top: 3rem;">
+                    <a href="https://api.whatsapp.com/send?phone=62895360918709" class="btn btn-secondary">Tanya Katalog Lainnya</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info animate-on-scroll fade-right">
+                    <h2>Hubungi Kami</h2>
+                    <p>Dapatkan knalpot berkualitas dengan memesan secara online atau kunjungi langsung bengkel kami di Purbalingga.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            </div>
+                            <div>
+                                <h4>Telepon / WhatsApp</h4>
+                                <p><a href="https://api.whatsapp.com/send?phone=62895360918709" target="_blank">62895360918709</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Shopee Savinta Official</h4>
+                                <p><a href="https://shopee.co.id/savintamufflerofficial?page=0&shopCollection=245071806" target="_blank">https://shopee.co.id/savintamufflerofficial</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            </div>
+                            <div>
+                                <h4>Lokasi Bengkel</h4>
+                                <p>Perumahan KAMILA, Block E57, Dusun 1, Jatisaba, Kec. Purbalingga, Kabupaten Purbalingga, Jawa Tengah 53316</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map animate-on-scroll fade-left">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.589694545901!2d109.3903911751651!3d-7.399785572860314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65595ae5bf786d%3A0x7cb6e2f49caf1fd!2sSAVINTA%20MUFFLER%20(%20PUSAT%20KNALPOT%20)!5e0!3m2!1sid!2sid!4v1781726439568!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>SAVINTA<span>MUFFLER</span></h2>
+                    <p>Merupakan Pabrik Knalpot di Purbalingga sekaligus Bengkel dan Layanan Penjualan Knalpot Mobil Custom terbaik di Purbalingga dan sekitarnya.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pabrik Knalpot Purbalingga @SAVINTA MUFFLER. Redesign by Faiz.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    const escapeHtml = window.escapeHtml || function(str) {
+        if (!str) return '';
+        return String(str)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    };
+
+    // Auto-generate all catalog products from PRODUCTS data
+    document.addEventListener('DOMContentLoaded', () => {
+        if (window.PRODUCTS) {
+            const categoryContainers = {
+                'Knalpot Motor': document.getElementById('category-motor'),
+                'Knalpot Truk': document.getElementById('category-truk'),
+                'Custom Stainless': document.getElementById('category-custom'),
+                'Ujung Stainless': document.getElementById('category-ujung'),
+                'Full Stainless': document.getElementById('category-full')
+            };
+
+            Object.entries(PRODUCTS).forEach(([slug, prod], idx) => {
+                const card = document.createElement('div');
+                card.className = 'product-card animate-on-scroll fade-up';
+                card.dataset.productSlug = slug;
+                card.style.transitionDelay = (idx % 6) * 0.1 + 's';
+
+                card.innerHTML = `
+                    <div class="product-image">
+                        <img src="${prod.image}" alt="${escapeHtml(prod.title)}">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">${escapeHtml(prod.category)}</span>
+                        <h3>${escapeHtml(prod.title)}</h3>
+                        <a class="btn btn-whatsapp btn-full" target="_blank" href="https://api.whatsapp.com/send?phone=62895360918709&text=${encodeURIComponent(prod.whatsapp)}">Pesan via WhatsApp</a>
+                        <a class="btn btn-shopee btn-full" data-shopee-for="${slug}" target="_blank" href="${prod.shopee || '#'}">Pesan via Shopee</a>
+                        <a href="product.html?id=${slug}" class="btn btn-secondary btn-full">Lihat Detail</a>
+                    </div>`;
+
+                const targetContainer = categoryContainers[prod.category] || document.getElementById('catalog-products');
+                if (targetContainer) {
+                    targetContainer.appendChild(card);
+                }
+            });
+        }
+    });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
