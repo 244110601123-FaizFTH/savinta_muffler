@@ -1399,15 +1399,16 @@ body.light-mode .catalog-filter select:focus {
     }
 }
 .floating-whatsapp {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
+    position: fixed !important;
+    right: 20px !important;
+    bottom: 20px !important;
+    left: auto !important;
+    top: auto !important;
 
     width: 60px;
     height: 60px;
 
     background: #25D366;
-    color: white;
 
     border-radius: 50%;
 
@@ -1415,13 +1416,14 @@ body.light-mode .catalog-filter select:focus {
     align-items: center;
     justify-content: center;
 
+    color: white;
     text-decoration: none;
 
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 99999;
 
-    z-index: 9999;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 
-    transition: all 0.3s ease;
+    transition: 0.3s;
 }
 
 .floating-whatsapp:hover {
